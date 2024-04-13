@@ -1,0 +1,146 @@
+.page-container {
+  background: #f3f3f394;
+  padding: 20px;
+}
+h1 {
+  margin: 0px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.filter-section {
+  display: flex;
+}
+
+.filter-box {
+  background: white;
+  padding: 8px 15px;
+  border-radius: 22px;
+  margin: 0px 5px;
+  cursor: pointer;
+}
+.filter-box1 {
+  background: #4459bd;
+  padding: 8px 15px;
+  border-radius: 22px;
+  margin: 0px 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.progress-container {
+  padding: 20px 0px;
+}
+.progress-box {
+  background: white;
+  padding: 18px 15px;
+  border-radius: 12px;
+  box-shadow: rgb(0 0 0 / 6%) 0px 3px 8px;
+  width: 100%;
+}
+.progress-box-card {
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 0, 0, 0.8),
+    rgb(255 95 87 / 72%)
+  );
+  padding: 18px 15px;
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.06) 0px 3px 8px;
+  width: 100%;
+  color: white;
+}
+.progress-box-card1 {
+  background-image: linear-gradient(
+    to right,
+    rgb(39 27 135 / 80%),
+    rgb(0 149 255 / 72%)
+  );
+  padding: 18px 15px;
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.06) 0px 3px 8px;
+  width: 100%;
+  color: white;
+}
+.progress-box-card2 {
+  background-image: linear-gradient(
+    to right,
+    rgb(29 117 7 / 80%),
+    rgb(98 255 0 / 72%)
+  );
+  padding: 18px 15px;
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.06) 0px 3px 8px;
+  width: 100%;
+  color: white;
+}
+.progress-box-card3 {
+  background-image: linear-gradient(
+    to right,
+    rgb(137 105 17 / 80%),
+    rgb(255 168 9 / 72%)
+  );
+  padding: 18px 15px;
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.06) 0px 3px 8px;
+  width: 100%;
+  color: white;
+}
+
+.graph-box {
+  background: white;
+  border-radius: 12px;
+  padding: 13px 15px;
+}
+
+.bal-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  h3 {
+    margin: 0px;
+  }
+}
+.bal-txt {
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+.valid-txt {
+  font-size: 12px;
+}
+.bal-content1 {
+  margin-right: 20px;
+}
+
+.num-txt {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.bitcoin-img {
+  width: 50px;
+  height: 50px;
+}
+.grow-txt {
+  font-size: 12px;
+}
+
+.grow-count {
+  font-size: 25px;
+  font-weight: bold;
+  color: #101059;
+}
+
+@media screen and (max-width: 525px) {
+  .header {
+    display: block;
+  }
+}
+
+.chart {
+  width: 100%;
+  // min-height: 450px;
+}
